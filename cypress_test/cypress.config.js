@@ -7,7 +7,7 @@ import esbuildPreprocessor from "./cypress/support/es-build-preprocessor.js";
 
 export default defineConfig({
   env: {
-    API_BASE_URL: "https://jsonplaceholder.typicode.com",
+    API_BASE_URL: "https://fakestoreapi.com/",
     API_REQUEST_TIMEOUT: "10000",
   },
   e2e: {
